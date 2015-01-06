@@ -1,6 +1,7 @@
 ## 简单的jQuery焦点图插件
 ---
-### 资源引用说明
+
+#### 资源引用说明
 
 要先导入jQuery库
 
@@ -8,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="/jquery.mslider.css" />
     <script type="text/javascript" src="/jquery.mslider.js"></script>
 ```
-### HTML结构设置
+#### HTML结构设置
 
 ```html
   <div class="jslider">
@@ -26,7 +27,7 @@
 </div>
 ```
 
-### js调用
+#### js调用
 
 ```js
   $(document).ready(function(){
