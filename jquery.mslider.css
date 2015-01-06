@@ -1,0 +1,39 @@
+.jslider{
+        width:670px;
+        position: relative;
+        overflow: hidden;
+        margin:0;
+        padding:0;
+        
+    }
+    .jslider ul {
+        padding:0;
+        margin:0;
+    }
+    .jslider li .active{
+        display: block;
+    }
+    .jsimg{
+        position: relative;
+    }
+    .jsimg li{
+        display: inline-block;
+        float: left;
+        position: relative;
+    }
+    .jsflag{
+        position: absolute;
+        bottom: 0;
+    }
+    .jsflag li{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 4px;
+        background-color: #ccc;
+        text-align: center;
+        color: white;
+    }
+    .jsflag li.active{
+        background-color: #E7BC79;
+    }
